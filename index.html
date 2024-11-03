@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reminder Manager</h1>
+        
+        <!-- Form for adding and editing reminders -->
+        <form id="reminder-form">
+            <input type="text" id="reminder-title" placeholder="Enter reminder title" required>
+            <input type="datetime-local" id="reminder-time" required>
+            <button type="submit" id="add-btn">Add Reminder</button>
+        </form>
+        
+        <!-- Display list of reminders -->
+        <div id="reminder-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
